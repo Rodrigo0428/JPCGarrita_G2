@@ -10,7 +10,7 @@ SELECT
     cli_email AS email,
     cli_telefono AS telefono,
     cli_direccion AS direccion,
-    distrito_id AS distrito_key,  -- Relación con dim_distritos
+    distrito_id AS distrito_key,  
     creado_en
 FROM staging.clientes
 WHERE cliente_id IS NOT NULL
